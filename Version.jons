@@ -1,0 +1,122 @@
+[
+        {
+                "version": "1.0.1",
+                "files": {
+                        "bot/login/login.js": "fixes terminal freeze"
+                }
+        },
+        {
+                "version": "1.0.2",
+                "files": {
+                        "bot/login/loadData.js": "fixes terminal freeze"
+                }
+        },
+        {
+                "version": "1.0.3",
+                "files": {
+                        "bot/handler/handlerEvents.js": "fixes terminal freeze"
+                }
+        },
+        {
+                "version": "1.0.4",
+                "files": {
+                        "bot/login/login.js": "fixes bugs",
+                        "scripts/cmds/badwords.js": "fixes error `Cannot read properties of undefined (reading 'settings')`",
+                        "scripts/cmds/loadconfig.js": "fixes error `Cannot read properties of undefined (reading 'dirConfig')`",
+                        "scripts/cmds/tik.js": "fixes api"
+                }
+        },
+        {
+                "version": "1.0.5",
+                "files": {
+                        "bot/login/login.js": "fixes duplicate login"
+                }
+        },
+        {
+                "version": "1.0.6",
+                "files": {
+                        "scripts/cmds/ytb.js": "fixes error `AxiosError: unable to verify the first certificate`"
+                }
+        },
+        {
+                "version": "1.0.7",
+                "files": {
+                        "scripts/cmds/videofb.js": "fixes error Cannot download video"
+                }
+        },
+        {
+                "version": "1.0.8",
+                "files": {
+                        "utils.js": "update system translate",
+                        "scripts/cmds/adduser.js": "update system translate"
+                }
+        },
+        {
+                "version": "1.0.9",
+                "files": {
+                        "scripts/cmds/tik.js": "add slide download feature (images)"
+                }
+        },
+        {
+                "version": "1.0.10",
+                "files": {
+                        "bot/handler/handlerEvents.js": "",
+                        "scripts/cmds/simsimi.js": "new command"
+                }
+        },
+        {
+                "version": "1.0.11",
+                "files": {
+                        "utils.js": "",
+                        "scripts/cmds/anime.js": "new command random anime image",
+                        "scripts/cmds/avatar.js": "new command create avatar anime",
+                        "scripts/cmds/simsimi.js": ""
+                }
+        },
+        {
+                "version": "1.0.12",
+                "files": {
+                        "scripts/cmds/anime.js": "fixes error Dissallowed props: `attachent`",
+                        "scripts/cmds/videofb.js": ""
+                }
+        },
+        {
+                "version": "1.0.13",
+                "files": {
+                        "bot/handler/handlerEvents.js": "fixes adminOnly not working",
+                        "bot/login/loadScripts.js": "",
+                        "scripts/cmds/cmd.js": "add function `install`: Download and install a script from a url, url is the path to the script (raw)",
+                        "scripts/cmds/event.js": "add function `install`: Download and install a script from a url, url is the path to the script (raw)"
+                }
+        },
+        {
+                "version": "1.0.14",
+                "files": {
+                        "bot/login/login.js": "automatically remove duplicate event listeners",
+                        "scripts/cmds/cmd.js": "fixes error: `TypeError: Cannot read property 'indexOf' of undefined`",
+                        "index.js": "added notification feature when new update is available"
+                }
+        },
+        {
+                "version": "1.0.15",
+                "files": {
+                        "bot/login/login.js": "fixes bot not working after some time",
+                        "scripts/cmds/admin.js": "new command help you Add, remove, edit admin rights",
+                        "scripts/cmds/cmd.js": "fixes error `TypeError: Cannot read properties of undefined (reading 'toLowerCase')`",
+                        "scripts/cmds/event.js": "fixes error `TypeError: Cannot read properties of undefined (reading 'toLowerCase')``"
+                }
+        },
+        {
+                "version": "1.0.16",
+                "files": {
+                        "index.js": "",
+                        "scripts/cmds/moon.js": "fixes error `TypeError: Cannot read property 'slice' of undefined`"
+                }
+        },
+        {
+                "version": "1.0.17",
+                "files": {
+                        "database/connectDB/connectMongoDB.js": "fixes can't connect mongodb",
+                        "database/controller/dashBoardData.js": "fixes can't connect mongodb",
+                        "database/controller/index.js": "fixes can't connect mongodb",
+ 
